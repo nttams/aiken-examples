@@ -26,7 +26,7 @@ validator gift {
   }
 }
 
-test hello_test() {
+test gift_test() {
   let datum = Datum { owner: #"0000" }
 
   let redeemer = Redeemer { msg: "hello" }
